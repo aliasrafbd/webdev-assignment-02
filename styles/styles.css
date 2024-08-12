@@ -112,10 +112,6 @@ main > .footer-sec > .footer {
     font-style: italic;
 }
 
-.nav-links {
-    /* display: flex;
-    width: 100%; */
-}
 
 .nav-links-ul {
     display: flex;
@@ -184,6 +180,10 @@ main > .footer-sec > .footer {
 .download-app-btn {
     background-color: #111111;
     border: 1px solid white;
+}
+
+.btn-responsive {
+    display: none;
 }
 
 .banner-img {
@@ -631,7 +631,7 @@ footer p {
     }
 
     .nav-icon {
-        display: inline;
+        display: block;
     }
     
     .banner {
@@ -654,6 +654,14 @@ footer p {
         border-radius: 40px;
         color: white;
         cursor: pointer;
+    }
+
+    .btn-responsive {
+        display: inline;
+    }
+
+    .btn-laptop {
+        display: none;
     }
 
     .btn-container {
