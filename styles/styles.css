@@ -95,6 +95,10 @@ main > .footer-sec > .footer {
     padding-top: 100px;
 }
 
+.nav-icon {
+    display: none;
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -588,6 +592,9 @@ footer p {
     margin-bottom: 30px;
 }
 
+.footer-sec {
+    margin-bottom: -500px;
+}
 
 @media screen and (max-width: 576px) {
 
@@ -609,6 +616,10 @@ footer p {
         display: none;
     }
 
+    .nav-icon {
+        display: inline;
+    }
+    
     .banner {
         margin-top: 25px;
     }
@@ -811,5 +822,6 @@ footer p {
     .footer-getstarted h1 {
         margin-bottom: 25px;
     }
+
 
 }
