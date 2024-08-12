@@ -660,12 +660,12 @@ footer p {
         cursor: pointer;
     }
 
-    .btn-mobile {
-        display: block;
-    }
-
     .btn-laptop {
         display: none;
+    }
+    
+    .btn-mobile {
+        display: block;
     }
 
     .btn-container {
