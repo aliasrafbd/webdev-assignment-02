@@ -19,7 +19,8 @@
 /* Shared Styles  */
 .body {
     max-width: 1536px; /* 1536 is my laptop width. */
-    background-color: #111111;
+    /* background-color: #111111; */
+    background: linear-gradient(to bottom, black, gray, black);
     color: #ffffff;
     margin: 0 auto;
     padding: 0;
@@ -300,8 +301,8 @@ main > .footer-sec > .footer {
     height: 180px;
     border-radius: 50%;
     margin: 0 auto;
+    border: 5px solid rgb(30, 29, 29);
 }
-
 
 /* Run Related Styles  */
 
@@ -411,7 +412,7 @@ table, th, td {
 
 .bmi-cal-header {
     max-width: 671px;
-    margin-left: 10px;
+    margin-left: 400px;
 }
 
 .bmi-cal-description {
@@ -612,6 +613,10 @@ footer p {
     margin-bottom: -500px;
 }
 
+.footer-bottom {
+    font-size: 1.1rem;
+}
+
 @media screen and (max-width: 576px) {
 
  
@@ -751,6 +756,7 @@ footer p {
 
     .bmi-cal-header {
         max-width: 353px;
+        margin-left: 10px;
     }
 
     .bmi-cal-content {
