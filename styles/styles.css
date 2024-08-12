@@ -744,11 +744,11 @@ footer p {
     }
 
     .bmi-calculator {
-        max-width: 354px;
+        max-width: 334px;
     }
 
     .input-form {
-        max-width: 353px;
+        max-width: 333px;
     }
 
     .bmi-calculator-title {
@@ -757,11 +757,11 @@ footer p {
     
 
     .input-form input, .input-form select {
-        max-width: 170.5px;
+        max-width: 160.5px;
     }
 
     #activity {
-        max-width: 353px;
+        max-width: 333px;
     }
 
     .bmi-calculator input, .bmi-calculator input[placeholder], .bmi-calculator select {
