@@ -234,6 +234,8 @@ main > .footer-sec > .footer {
     left: 200px;
     font-weight: 800;
     font-size: 0.9rem;
+    backdrop-filter: blur(10px);
+
 }
 
 .video-container {
@@ -246,6 +248,7 @@ main > .footer-sec > .footer {
     gap: 12px;
     align-items: center;
     justify-content: center;
+    backdrop-filter: blur(10px);
 }
 
 .free-workout-videos {
@@ -352,9 +355,13 @@ main > .footer-sec > .footer {
 }
 
 .training-image-one {
-    position: relative;
     display: grid;
     grid-template-columns: 333px auto 280px;
+}
+
+
+.training-img {
+    position: relative;
 }
 
 .overlay {
@@ -363,30 +370,28 @@ main > .footer-sec > .footer {
     height: 100%; 
     width: 100%; 
     top: 0; 
-    background-color: lightblue; 
+    background-color: rgb(227, 21, 179); 
     opacity: 0;
 }
 
-.training-image-one:hover .overlay { 
-    opacity: 0.3; 
-    border: 5px solid rgb(27, 188, 67);
+.training-img:hover .overlay { 
+    opacity: 0.5; 
 } 
 
 
-.training-image-two {
-    position: relative;
+ .training-image-two {
     display: grid;
     grid-template-columns: 433px 233px auto;
-}
+} 
 
 .training-images-container img {
     width: 100%;
     height: 201.5px;
 }
 
-.training-image-two:hover .overlay { 
+/* .training-image-two:hover .overlay { 
     opacity: 0.3; 
-}
+} */
 
 
 /* BMI Related Styles  */
@@ -406,7 +411,7 @@ table, th, td {
 
 .bmi-cal-header {
     max-width: 671px;
-    margin: 0 auto;
+    margin-left: 10px;
 }
 
 .bmi-cal-description {
@@ -689,12 +694,8 @@ footer p {
     
     .video-container {
         bottom: 80px;
-        left: -25px;
+        left: -15px;
     }
-    
-
-
-
 
 
     /* Habit Responsive  */
@@ -750,7 +751,6 @@ footer p {
 
     .bmi-cal-header {
         max-width: 353px;
-        margin: 0 10px;
     }
 
     .bmi-cal-content {
