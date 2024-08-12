@@ -478,6 +478,7 @@ table, th, td {
     background-color: rgb(56, 54, 54);
     padding: 15px;
     border-radius: 15px;
+    margin-bottom: 88px;
 }
 
 .team-title-details {
@@ -528,7 +529,8 @@ table, th, td {
     margin: 0 auto; /* Center footer horizontally */
     padding: 20px; /* Padding for footer */
     box-sizing: border-box; /* Include padding in the width and height calculations */
-} 
+    margin-bottom: -100px;
+}
 
 .footer {
     margin-top: 88px;
@@ -691,8 +693,8 @@ footer p {
     }
     
     .run-content img {
-        max-width: 340px;
-        max-height: 254px;
+        max-width: 306px;
+        max-height: 186px;
     }
 
     .join-club-btn {
@@ -787,7 +789,7 @@ footer p {
     .team-content {
         grid-template-columns: repeat(1, 1fr);
         gap: 15px; 
-        margin-bottom: 4rem;
+        margin-bottom: 88px;
     }
 
     .team-title {
