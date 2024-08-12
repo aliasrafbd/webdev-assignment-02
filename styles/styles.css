@@ -182,7 +182,11 @@ main > .footer-sec > .footer {
     border: 1px solid white;
 }
 
-.btn-responsive {
+.btn-laptop {
+    display: block;
+}
+
+.btn-mobile {
     display: none;
 }
 
@@ -656,8 +660,8 @@ footer p {
         cursor: pointer;
     }
 
-    .btn-responsive {
-        display: inline;
+    .btn-mobile {
+        display: block;
     }
 
     .btn-laptop {
