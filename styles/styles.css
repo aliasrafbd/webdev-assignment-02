@@ -395,6 +395,11 @@ table, th, td {
     margin-top: 5rem;
 }
 
+.bmi-cal-title {
+    font-size: 3rem;
+    margin-bottom: 14px;
+}
+
 .bmi-cal-header {
     max-width: 671px;
     margin: 0 auto;
@@ -600,7 +605,10 @@ footer p {
 
 @media screen and (max-width: 576px) {
 
-    
+ 
+/* Shared Styles Responsive */
+
+
     .header, 
     main > .habit, 
     main > .run, 
@@ -610,6 +618,10 @@ footer p {
     max-width: 90%;
     padding-top: 0px;
     margin-top: 52px;
+}
+
+.btn-primary {
+    padding: 12px 22px;
 }
 
 /* Nav and Banner Responsive  */
@@ -638,7 +650,7 @@ footer p {
 
     .btn-primary {
         padding: 16px 35px;
-        font-size: 1rem;
+        font-size: 0.9rem;
         border-radius: 40px;
         color: white;
         cursor: pointer;
@@ -726,6 +738,7 @@ footer p {
 
     .bmi-cal-header {
         max-width: 353px;
+        margin: 0 10px;
     }
 
     .bmi-cal-content {
