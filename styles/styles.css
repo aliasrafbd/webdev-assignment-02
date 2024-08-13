@@ -89,6 +89,7 @@ main > .habit,
 main > .run, 
 main > .training, 
 main > .team,
+main > .benefit,
 main > .footer-sec > .footer {
     max-width: 70%;
     align-items: center;
@@ -535,6 +536,105 @@ table, th, td {
 }
 
 
+/* Benefit Related Styles  */
+
+
+main > .benefit {
+    padding-top: 10px;
+}
+
+.benefit-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    max-width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.benefit-header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.six-ben {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.benefit-header p {
+    font-size: 1rem;
+    margin-bottom: 70px;
+}
+
+.benefit-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.ben-img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.ex-flex {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.ex-flex span {
+    font-weight: 600;
+}
+
+.ben-serial {
+    font-size: 1.8rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(188, 75, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefit-details {
+    background-color: rgb(157, 158, 163);
+    padding: 15px;
+    border-radius: 15px;
+}
+.benefit-details img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 25px;
+    border: 5px solid rgb(53, 51, 51);
+    margin: 0 auto;
+}
+
+.benefit-details h2 {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.benefit h1 {
+    margin-bottom: 25px;
+}
+
+.benefit-content {
+    margin-bottom: 88px;
+}
+
+
 /* Footer Related Styles  */
  
 #footer-bg {
@@ -828,6 +928,18 @@ footer p {
         margin-bottom: 14px;
     }
 
+
+    /* Unique Section named Benefit responsive  */
+
+    .benefit-content {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+
+    .benefit-header {
+        max-width: 100%;
+    }
+
     /* Footer Responsive  */
 
     .footer {
@@ -840,8 +952,6 @@ footer p {
 
     #footer-bg {
         padding-bottom: 44px;
-    }
-    .footer-fitness {
     }
 
     main > .footer-sec > .footer {
