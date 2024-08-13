@@ -541,6 +541,7 @@ table, th, td {
 
 main > .benefit {
     padding-top: 10px;
+    color: black;
 }
 
 .benefit-header {
@@ -551,6 +552,7 @@ main > .benefit {
     max-width: 65%;
     margin: 0 auto;
     text-align: center;
+    color: white;
 }
 
 .benefit-header h1 {
@@ -561,6 +563,7 @@ main > .benefit {
 .six-ben {
     font-size: 2rem;
     text-align: left;
+    color: white;
 }
 
 .benefit-header p {
