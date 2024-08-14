@@ -792,7 +792,7 @@ footer p {
     }
 
     .milestone-videos-01 {
-        width: 175px;
+        width: 165px;
         height: 80px;
     }
 
@@ -804,6 +804,10 @@ footer p {
       .free-workout-info {
         top: 135px;
         left: 185px;
+    }
+
+    .free-workout-info-content p {
+        font-size: 0.9rem;
     }
     
     .video-container {
