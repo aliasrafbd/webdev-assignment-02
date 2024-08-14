@@ -792,25 +792,24 @@ footer p {
     }
 
     .milestone-videos-01 {
-        width: 170px;
-        height: 90px;
+        width: 160px;
+        height: 80px;
     }
 
     .milestone-videos-02 {
-        width: 190px;
-        height: 88px;
+        width: 170px;
+        height: 75px;
       }
 
       .free-workout-info {
-        top: 125px;
-        left: 200px;
+        top: 135px;
+        left: 190px;
     }
     
     .video-container {
         bottom: 80px;
-        left: -15px;
+        left: -5px;
     }
-
 
     /* Habit Responsive  */
 
@@ -884,15 +883,15 @@ footer p {
     }
 
     .bmi-calculator {
-        max-width: 314px;
+        max-width: 320px;
     }
 
     .input-form {
-        max-width: 313px;
+        max-width: 319px;
     }
     
     .input-form input, .input-form select {
-        max-width: 150.5px;
+        max-width: 153.5px;
     }
     
     .bmi-calculator-title {
@@ -900,7 +899,7 @@ footer p {
     }
 
     #activity {
-        max-width: 313px;
+        max-width: 319px;
     }
 
     .bmi-calculator input, .bmi-calculator input[placeholder], .bmi-calculator select {
@@ -946,6 +945,10 @@ footer p {
 
     .benefit-header {
         max-width: 100%;
+    }
+
+    .benefit-details {
+        padding: 15px 0;
     }
 
     /* Footer Responsive  */
