@@ -237,8 +237,12 @@ main > .footer-sec > .footer {
     font-weight: 800;
     font-size: 0.9rem;
     backdrop-filter: blur(10px);
-
 }
+
+.free-workout-info-content {
+    margin-left: 15px;
+}
+
 
 .video-container {
     display: flex;
@@ -870,6 +874,7 @@ footer p {
 
     .bmi-chart, .bmi-calculator {
         margin-left: 10px;
+        max-width: 100%;
     }
 
     .bmi-chart-title {
@@ -877,25 +882,8 @@ footer p {
         margin-bottom: 23px;
     }
 
-    .bmi-calculator {
-        max-width: 314px;
-    }
-
-    .input-form {
-        max-width: 313px;
-    }
-
     .bmi-calculator-title {
         font-size: 1rem;
-    }
-    
-
-    .input-form input, .input-form select {
-        max-width: 150.5px;
-    }
-
-    #activity {
-        max-width: 313px;
     }
 
     .bmi-calculator input, .bmi-calculator input[placeholder], .bmi-calculator select {
